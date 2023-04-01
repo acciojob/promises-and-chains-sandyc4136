@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   
   if (!nameInput.value || !ageInput.value) {
-    alert('Please enter your name and age.');
+    alert('Please enter valid details');
     return;
   }
   
